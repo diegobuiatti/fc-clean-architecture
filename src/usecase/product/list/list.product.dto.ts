@@ -1,5 +1,5 @@
-import ProductInterface from "../../../domain/product/entity/product.interface";
+import Product from "../../../domain/product/entity/product";
 
 export interface OutputListProductDto {
-  products: ProductInterface[];
+  products: Product[];
 }
